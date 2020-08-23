@@ -12,6 +12,15 @@ Deep Animator is an implementation of [First Order Motion Model for Image Animat
 
 Run `pip install deep-animator` to install the library in your environment.
 
+the above command (original) did not work out on windows 10.
+i actually recommend using (mini)conda for this (https://docs.conda.io/en/latest/miniconda.html) .
+after installing conda:
+1 - clone this repo 
+2 - cd into the root of this repo (where environment.yml is located)
+3 - run `conda env create`
+4 - `conda env activate`
+5 - `python setup.py install`
+
 ## How to use
 
 First you need to download the weights of the model [here](https://drive.google.com/file/d/1zqa0la8FKchq62gRJMMvDGVhinf3nBEx/view?usp=sharing). Then just run the following command.
