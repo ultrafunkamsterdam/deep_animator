@@ -17,9 +17,9 @@ i actually recommend using (mini)conda for this (https://docs.conda.io/en/latest
 after installing conda:
 1 - clone this repo 
 2 - cd into the root of this repo (where environment.yml is located)
-3 - run `conda env create`
-4 - `conda env activate`
-5 - `python setup.py install`
+3 - run `conda env create` or if you wish to specify a environment name `conda env create --name desiredenvnamehere --file envionment.yml`
+4 - `conda env activate`  or if you have specified in previous step `conda activate desiredenvnamehere`
+5 - `python setup.py install` (of course from the directory containing setup.py)
 
 ## How to use
 
